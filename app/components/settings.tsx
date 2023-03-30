@@ -169,7 +169,7 @@ export function Settings(props: { closeSettings: () => void }) {
             </Popover>
           </SettingItem>
 
-          <SettingItem
+          {/* <SettingItem
             title={Locale.Settings.Update.Version(currentId)}
             subTitle={
               checkingUpdate
@@ -192,7 +192,7 @@ export function Settings(props: { closeSettings: () => void }) {
                 onClick={() => checkUpdate(true)}
               />
             )}
-          </SettingItem>
+          </SettingItem> */}
 
           <SettingItem title={Locale.Settings.SendKey}>
             <select
@@ -331,7 +331,7 @@ export function Settings(props: { closeSettings: () => void }) {
             <></>
           )}
 
-          <SettingItem
+          {/* <SettingItem
             title={Locale.Settings.Token.Title}
             subTitle={Locale.Settings.Token.SubTitle}
           >
@@ -343,9 +343,9 @@ export function Settings(props: { closeSettings: () => void }) {
                 accessStore.updateToken(e.currentTarget.value);
               }}
             ></input>
-          </SettingItem>
+          </SettingItem> */}
 
-          <SettingItem
+          {/* <SettingItem
             title={Locale.Settings.Usage.Title}
             subTitle={
               loadingUsage
@@ -365,9 +365,9 @@ export function Settings(props: { closeSettings: () => void }) {
                 onClick={checkUsage}
               />
             )}
-          </SettingItem>
+          </SettingItem> */}
 
-          <SettingItem
+          {/* <SettingItem
             title={Locale.Settings.HistoryCount.Title}
             subTitle={Locale.Settings.HistoryCount.SubTitle}
           >
@@ -385,7 +385,7 @@ export function Settings(props: { closeSettings: () => void }) {
                 )
               }
             ></input>
-          </SettingItem>
+          </SettingItem> */}
 
           <SettingItem
             title={Locale.Settings.CompressThreshold.Title}
